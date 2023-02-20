@@ -83,7 +83,17 @@
                      Height="30"
                      FontSize="18"
                      HorizontalAlignment="Left"
-                     Margin="24 0 0 8"/>
+                     Margin="24 0 0 8" SelectionChanged="CmbGender_SelectionChanged"/>
+            <TextBlock Text="Выберите роль"
+                       FontSize="18"
+                       Margin="16 0 0 0"/>
+            <ComboBox x:Name="CmbRole"
+                      Width="250"
+                     Height="30"
+                     FontSize="18"
+                     HorizontalAlignment="Left"
+                     Margin="24 0 0 8" SelectionChanged="CmbRole_SelectionChanged"/>
+
 
             <Button x:Name="BtnAdduser"
                     Width="300"

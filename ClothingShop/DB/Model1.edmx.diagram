@@ -4,32 +4,32 @@
   <edmx:Designer xmlns="http://schemas.microsoft.com/ado/2009/11/edmx">
     <!-- Diagram content (shape and connector positions) -->
     <edmx:Diagrams>
-      <Diagram DiagramId="1fed64d366fc4657b6c74f5c14110719" Name="Diagram1" ZoomLevel="132">
-        <EntityTypeShape EntityType="ClothingStoreModel.Client" Width="1.5" PointX="5.25" PointY="3.875" IsExpanded="true" />
-        <EntityTypeShape EntityType="ClothingStoreModel.Color" Width="1.5" PointX="5.25" PointY="8.75" IsExpanded="true" />
-        <EntityTypeShape EntityType="ClothingStoreModel.Employee" Width="1.5" PointX="5.25" PointY="0.75" IsExpanded="true" />
-        <EntityTypeShape EntityType="ClothingStoreModel.Gender" Width="1.5" PointX="0.75" PointY="4" IsExpanded="true" />
-        <EntityTypeShape EntityType="ClothingStoreModel.Order" Width="1.5" PointX="7.5" PointY="3.625" IsExpanded="true" />
-        <EntityTypeShape EntityType="ClothingStoreModel.Position" Width="1.5" PointX="3" PointY="9.125" IsExpanded="true" />
-        <EntityTypeShape EntityType="ClothingStoreModel.Product" Width="1.5" PointX="7.5" PointY="10.25" IsExpanded="true" />
-        <EntityTypeShape EntityType="ClothingStoreModel.ProductOrder" Width="1.5" PointX="9.75" PointY="3.75" IsExpanded="true" />
-        <EntityTypeShape EntityType="ClothingStoreModel.Role" Width="1.5" PointX="0.75" PointY="1" IsExpanded="true" />
-        <EntityTypeShape EntityType="ClothingStoreModel.Size" Width="1.5" PointX="5.25" PointY="11.125" IsExpanded="true" />
-        <EntityTypeShape EntityType="ClothingStoreModel.sysdiagrams" Width="1.5" PointX="7.75" PointY="6.875" IsExpanded="true" />
-        <EntityTypeShape EntityType="ClothingStoreModel.Type" Width="1.5" PointX="5.25" PointY="13.375" IsExpanded="true" />
-        <EntityTypeShape EntityType="ClothingStoreModel.User" Width="1.5" PointX="3" PointY="3" IsExpanded="true" />
-        <AssociationConnector Association="ClothingStoreModel.FK_Client_User" ManuallyRouted="false" />
-        <AssociationConnector Association="ClothingStoreModel.FK_Order_Client" ManuallyRouted="false" />
-        <AssociationConnector Association="ClothingStoreModel.FK_Product_Color" ManuallyRouted="false" />
-        <AssociationConnector Association="ClothingStoreModel.FK_Employee_Position" ManuallyRouted="false" />
-        <AssociationConnector Association="ClothingStoreModel.FK_Employee_User" ManuallyRouted="false" />
-        <AssociationConnector Association="ClothingStoreModel.FK_Order_Employee" ManuallyRouted="false" />
-        <AssociationConnector Association="ClothingStoreModel.FK_User_Gender" ManuallyRouted="false" />
-        <AssociationConnector Association="ClothingStoreModel.FK_ProductOrder_Order" ManuallyRouted="false" />
-        <AssociationConnector Association="ClothingStoreModel.FK_Product_Size" ManuallyRouted="false" />
-        <AssociationConnector Association="ClothingStoreModel.FK_Product_Type" ManuallyRouted="false" />
-        <AssociationConnector Association="ClothingStoreModel.FK_ProductOrder_Product" ManuallyRouted="false" />
-        <AssociationConnector Association="ClothingStoreModel.FK_User_Role" ManuallyRouted="false" />
+      <Diagram DiagramId="1fed64d366fc4657b6c74f5c14110719" Name="Diagram1" ZoomLevel="64">
+        <EntityTypeShape EntityType="ClothingStoreModel.Client" Width="1.5" PointX="5.25" PointY="6.5" />
+        <EntityTypeShape EntityType="ClothingStoreModel.Color" Width="1.5" PointX="5.25" PointY="9.875" />
+        <EntityTypeShape EntityType="ClothingStoreModel.Employee" Width="1.5" PointX="5.25" PointY="3.5" />
+        <EntityTypeShape EntityType="ClothingStoreModel.Gender" Width="1.5" PointX="0.75" PointY="0.75" />
+        <EntityTypeShape EntityType="ClothingStoreModel.Order" Width="1.5" PointX="7.5" PointY="4.75" />
+        <EntityTypeShape EntityType="ClothingStoreModel.Position" Width="1.5" PointX="3" PointY="8.75" />
+        <EntityTypeShape EntityType="ClothingStoreModel.Product" Width="1.5" PointX="7.5" PointY="11.25" />
+        <EntityTypeShape EntityType="ClothingStoreModel.ProductOrder" Width="1.5" PointX="9.75" PointY="4.875" />
+        <EntityTypeShape EntityType="ClothingStoreModel.Role" Width="1.5" PointX="0.75" PointY="3.75" />
+        <EntityTypeShape EntityType="ClothingStoreModel.Size" Width="1.5" PointX="5.25" PointY="12.125" />
+        <EntityTypeShape EntityType="ClothingStoreModel.sysdiagrams" Width="1.5" PointX="7.75" PointY="1.625" />
+        <EntityTypeShape EntityType="ClothingStoreModel.Type" Width="1.5" PointX="5.25" PointY="14.5" />
+        <EntityTypeShape EntityType="ClothingStoreModel.User" Width="1.5" PointX="3" PointY="2.75" />
+        <AssociationConnector Association="ClothingStoreModel.FK_Client_User" />
+        <AssociationConnector Association="ClothingStoreModel.FK_Order_Client" />
+        <AssociationConnector Association="ClothingStoreModel.FK_Product_Color" />
+        <AssociationConnector Association="ClothingStoreModel.FK_Employee_Position" />
+        <AssociationConnector Association="ClothingStoreModel.FK_Employee_User" />
+        <AssociationConnector Association="ClothingStoreModel.FK_Order_Employee" />
+        <AssociationConnector Association="ClothingStoreModel.FK_User_Gender" />
+        <AssociationConnector Association="ClothingStoreModel.FK_ProductOrder_Order" />
+        <AssociationConnector Association="ClothingStoreModel.FK_Product_Size" />
+        <AssociationConnector Association="ClothingStoreModel.FK_Product_Type" />
+        <AssociationConnector Association="ClothingStoreModel.FK_ProductOrder_Product" />
+        <AssociationConnector Association="ClothingStoreModel.FK_User_Role" />
       </Diagram>
     </edmx:Diagrams>
   </edmx:Designer>

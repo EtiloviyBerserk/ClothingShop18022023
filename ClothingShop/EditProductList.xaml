@@ -64,9 +64,7 @@
                     Height="30"
                     Content="Добавить"
                     FontSize="22"
-                    Margin="0 40 0 0"
-                    />
-
+                    Margin="0 40 0 0"/>
         </StackPanel>
     </Grid>
 </Window>

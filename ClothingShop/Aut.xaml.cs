@@ -40,7 +40,8 @@ namespace ClothingShop
                 MessageBox.Show("Пользователь не найден", "Ошибка", MessageBoxButton.OK, MessageBoxImage.Error);
             }
 
-        }
+          //  Window window = new Aut();
 
+        }
     }
 }

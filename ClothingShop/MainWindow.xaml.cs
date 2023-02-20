@@ -29,13 +29,16 @@ namespace ClothingShop
             CmbGender.ItemsSource=EFClass.Context.Gender.ToList();
             CmbGender.DisplayMemberPath = "Name";
             CmbGender.SelectedIndex = 0;
+            CmbRole.ItemsSource = EFClass.Context.Role.ToList();
+            CmbRole.DisplayMemberPath = "Name";
+            CmbRole.SelectedIndex = 0;
         }
         private void BtnAdduser_Click(object sender, RoutedEventArgs e)
         {
             // валидация
             if (string.IsNullOrWhiteSpace(TbLogin.Text))
             {
-                MessageBox.Show("Логин не может быть пустым или состоять из пробелов");
+                MessageBox.Show("Логин не может быть пустым");
                 return;
             }
 
@@ -47,10 +50,10 @@ namespace ClothingShop
                 LastName = TbLName.Text,
                 FirstName = TbFName.Text,
                 Mail = TbEmail.Text,
+                IdRole = (CmbRole.SelectedItem as Role).idRole,
                 Phone = TbPhone.Text,
                 Birthday = DPDateOfBirth.SelectedDate.Value,
                 IdGender = (CmbGender.SelectedItem as Gender).IdGender,
-
             });
 
 
@@ -61,6 +64,16 @@ namespace ClothingShop
             // оповещение об успехе
             MessageBox.Show("Ok");
 
+
+        }
+
+        private void CmbGender_SelectionChanged(object sender, SelectionChangedEventArgs e)
+        {
+
+        }
+
+        private void CmbRole_SelectionChanged(object sender, SelectionChangedEventArgs e)
+        {
 
         }
     }
